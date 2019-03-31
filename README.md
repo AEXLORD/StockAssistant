@@ -12,18 +12,25 @@
 # 2.前期配置
 src -> account.properties 中首先要配置一个'发送邮箱'的信息
 >    myEmailAccount=  邮箱账号
+
 >    myEmailPassword= 邮箱密码
+
 >    myEmailSMTPHost= 邮箱服务器地址
+
 之后使用'eclipse'或其他ide将项目打包成可执行程序，在Launch configuration中选择'Running.java'
 
 # 3.运行配置
 >    please inpute stock number :
+
 输入股票代码
 >    please inpute asset value :
+
 输入该股票每股市净率
 >    please inpute your email :
+
 输入接受信息的邮箱
 >    please inpute the time space :
+
 输入检测间隔时间
 
 # End
